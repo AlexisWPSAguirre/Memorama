@@ -31,7 +31,8 @@ main {
     grid-gap: 10px;
     grid-template-columns: repeat(5, 1fr);
     max-width: 1000px;
-    margin: auto;
+    margin: 10px;
+    align-items: center;
 }
 
 figure,
@@ -39,6 +40,7 @@ figure img {
     display: inline-block;
     width: 100%;
     height: 100%;
+    align-items: center;
 }
 
 figure {
